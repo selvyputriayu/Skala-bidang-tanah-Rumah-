@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bidang Tanah</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://unpkg.com/@turf/turf/turf.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+<div class="container">
+<h3>Bidang Tanah</h3>
+
+<div id="map"></div>
+
+<button onclick="aktifTambah()">➕ Tambah Titik</button>
+<button onclick="ambilGPS()">📍 GPS</button>
+<button onclick="exportPDF()">🧾 PDF</button>
+
+<p>Luas: <span id="luas">0</span> m²</p>
+<ul id="sisi"></ul>
+
+<button class="logout" onclick="logout()">Logout</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
