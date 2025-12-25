@@ -1,0 +1,7 @@
+body { margin:0; font-family:Arial; background:#f4f4f4 }
+#map { height:300px; border-radius:10px }
+.container { max-width:420px; margin:auto; padding:10px }
+button { width:100%; margin:5px 0; padding:10px }
+.logout { background:red; color:white }
+.card { background:white; padding:20px; border-radius:10px }
+.login-body { display:flex; justify-content:center; align-items:center; height:100vh }
